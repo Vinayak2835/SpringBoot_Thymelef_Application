@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Adding Css and Js</title>
+	
+		<link rel="stylesheet"  th:href="@{/css/mystylesheet.css}"></link>
+	
+	</head>
+
+<body>
+	
+	<div class="container">
+	
+		<h1 align ="center">Hello This is the example for adding javascript css in  spring boot application</h1>
+	
+	</div>
+	
+		<script class="src" th:src="@{/js/mystylesheet.js}"></script>
+	
+		<img src="" alt="" class="profile" th:src="@{/images/avatar.jpg}" />
+		
+</body>
+
+</html>

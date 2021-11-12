@@ -1,0 +1,10 @@
+.container{
+	background-color:red;
+	padding:60px;
+	font-family:Roboto;
+}
+
+.profile {
+	height:200px;
+	width:200px;
+}
