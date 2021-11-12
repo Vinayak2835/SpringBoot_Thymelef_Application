@@ -6,7 +6,6 @@ import javax.validation.constraints.Size;
 
 public class LoginData {
 	
-	
 	@NotBlank(message="UserName can't be empty")
 	@Size(min=3,max=10,message="UserName between 3 to 10 characters")
 	private String userName;
