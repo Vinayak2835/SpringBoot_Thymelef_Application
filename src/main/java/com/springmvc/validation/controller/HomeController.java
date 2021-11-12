@@ -29,7 +29,6 @@ public class HomeController {
 			System.out.println(result);
 			return "form";
 		}
-		
 		System.out.println(loginData);
 		return "success";		
 	 }
