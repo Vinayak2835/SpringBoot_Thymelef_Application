@@ -29,45 +29,41 @@
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-thymeleaf</artifactId>
-    <version>2.5.5</version><!--$NO-MVN-MAN-VER$-->
-</dependency>
+		<dependency>
+    			<groupId>org.springframework.boot</groupId>
+    			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+   			 <version>2.5.5</version><!--$NO-MVN-MAN-VER$-->
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-devtools</artifactId>
-    <version>2.5.5</version><!--$NO-MVN-MAN-VER$-->
-</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+		<dependency>
+    			<groupId>org.springframework.boot</groupId>
+   			 <artifactId>spring-boot-devtools</artifactId>
+    			<version>2.5.5</version><!--$NO-MVN-MAN-VER$-->
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
-<dependency>
-    <groupId>javax.validation</groupId>
-    <artifactId>validation-api</artifactId>
-    <version>2.0.1.Final</version><!--$NO-MVN-MAN-VER$-->
-</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+		<dependency>
+    			<groupId>javax.validation</groupId>
+    			<artifactId>validation-api</artifactId>
+    			<version>2.0.1.Final</version><!--$NO-MVN-MAN-VER$-->
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-validator</artifactId>
-    <version>6.1.5.Final</version>
-</dependency>
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
+	<dependency>
+    		<groupId>org.hibernate</groupId>
+    		<artifactId>hibernate-validator</artifactId>
+    		<version>6.1.5.Final</version>
+	</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
-<dependency>
-    <groupId>org.apache.tomcat.embed</groupId>
-    <artifactId>tomcat-embed-jasper</artifactId>
-    <version>10.0.12</version><!--$NO-MVN-MAN-VER$-->
-</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+	<dependency>
+    		<groupId>org.apache.tomcat.embed</groupId>
+    		<artifactId>tomcat-embed-jasper</artifactId>
+   		 <version>10.0.12</version><!--$NO-MVN-MAN-VER$-->
+	</dependency>
 
-
-
-
-		
-	</dependencies>
+</dependencies>
 
 	<build>
 		<plugins>
